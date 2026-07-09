@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mystic Nails & Beauty | Estudio de Uñas y Belleza</title>
+<meta name="description" content="Mystic Nails & Beauty — estudio de manicura, pedicura y nail art de autor. Elegancia en cada detalle, magia en cada diseño.">
+<link rel="icon" type="image/png" href="assets/logo.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<div id="preloader">
+  <img src="assets/logo.png" alt="Mystic Nails & Beauty" class="preloader-logo">
+</div>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#inicio" class="brand">
+      <img src="assets/logo.png" alt="Mystic Nails & Beauty logo" class="brand-logo">
+      <span class="brand-text">Mystic <em>Nails</em> <span class="amp">&amp;</span> Beauty</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#galeria" class="nav-link">Galería</a></li>
+        <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <a href="#contacto" class="btn btn-outline nav-cta">Reservar Cita</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="inicio">
+    <div class="hero-sparkle hero-sparkle-1">✦</div>
+    <div class="hero-sparkle hero-sparkle-2">✧</div>
+    <div class="hero-sparkle hero-sparkle-3">✦</div>
+
+    <div class="container hero-inner">
+      <div class="hero-text" data-reveal>
+        <span class="overline">Estudio de Uñas &amp; Belleza</span>
+        <h1>Manos que <em>hechizan</em>,<br>uñas con alma</h1>
+        <p class="hero-lead">
+          En Mystic Nails &amp; Beauty transformamos cada visita en un ritual de belleza:
+          manicura de precisión, nail art de autor y un mimo por el detalle que se nota
+          a simple vista.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-solid">Reservar Cita</a>
+          <a href="#servicios" class="btn btn-ghost">Ver Servicios</a>
+        </div>
+        <div class="hero-meta">
+          <span>★★★★★</span>
+          <p>Más de 500 clientas felices</p>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal>
+        <!-- Reusable leaf shapes (rendered once, referenced via <use>) -->
+        <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+          <defs>
+            <symbol id="leaf-fern" viewBox="0 0 40 90">
+              <path d="M20 88V20"/>
+              <path d="M20 70c-8-2-13-10-13-20 8 2 13 10 13 20Z"/>
+              <path d="M20 50c8-2 13-10 13-20-8 2-13 10-13 20Z"/>
+              <path d="M20 30c-6-1-9-6-9-13 6 1 9 6 9 13Z"/>
+            </symbol>
+            <symbol id="leaf-broad" viewBox="0 0 40 60">
+              <path d="M20 58c-10-8-16-20-14-34 2-12 8-18 14-22 6 4 12 10 14 22 2 14-4 26-14 34Z"/>
+              <path d="M20 55V6"/>
+            </symbol>
+            <symbol id="leaf-sprig" viewBox="0 0 30 70">
+              <path d="M15 68V8"/>
+              <circle cx="10" cy="20" r="2.6"/>
+              <circle cx="20" cy="32" r="2.6"/>
+              <circle cx="9" cy="44" r="2.6"/>
+              <circle cx="20" cy="55" r="2.6"/>
+            </symbol>
+          </defs>
+        </svg>
+
+        <div class="hero-forest">
+          <!-- Back layer: distant foliage, blurred, faded, slow sway -->
+          <div class="leaf-layer layer-back">
+            <span class="hero-leaf leaf-b1 pale" style="--sway:-20deg; --dur:7.2s"><svg viewBox="0 0 40 90" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-fern"/></svg></span>
+            <span class="hero-leaf leaf-b2 sage" style="--sway:14deg; --dur:6.6s"><svg viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-broad"/></svg></span>
+            <span class="hero-leaf leaf-b3 pale" style="--sway:200deg; --dur:7s"><svg viewBox="0 0 40 90" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-fern"/></svg></span>
+            <span class="hero-leaf leaf-b4 sage" style="--sway:158deg; --dur:6.4s"><svg viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-broad"/></svg></span>
+            <span class="hero-leaf leaf-b5 pale" style="--sway:-95deg; --dur:6.8s"><svg viewBox="0 0 30 70" fill="none" stroke="currentColor" stroke-width="1"><use href="#leaf-sprig"/></svg></span>
+            <span class="hero-leaf leaf-b6 sage" style="--sway:100deg; --dur:7.4s"><svg viewBox="0 0 30 70" fill="none" stroke="currentColor" stroke-width="1"><use href="#leaf-sprig"/></svg></span>
+            <span class="hero-leaf leaf-b7 sage" style="--sway:-4deg; --dur:6.9s"><svg viewBox="0 0 40 90" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-fern"/></svg></span>
+            <span class="hero-leaf leaf-b8 pale" style="--sway:184deg; --dur:7.1s"><svg viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-broad"/></svg></span>
+            <span class="hero-leaf leaf-b9 sage" style="--sway:44deg; --dur:6.5s"><svg viewBox="0 0 30 70" fill="none" stroke="currentColor" stroke-width="1"><use href="#leaf-sprig"/></svg></span>
+            <span class="hero-leaf leaf-b10 pale" style="--sway:-140deg; --dur:7.3s"><svg viewBox="0 0 40 90" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-fern"/></svg></span>
+          </div>
+
+          <!-- Mid layer -->
+          <div class="leaf-layer layer-mid">
+            <span class="hero-leaf leaf-m1 sage" style="--sway:-14deg; --dur:5.4s"><svg viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-broad"/></svg></span>
+            <span class="hero-leaf leaf-m2 dark" style="--sway:10deg; --dur:5.8s"><svg viewBox="0 0 40 90" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-fern"/></svg></span>
+            <span class="hero-leaf leaf-m3 sage" style="--sway:190deg; --dur:5.2s"><svg viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-broad"/></svg></span>
+            <span class="hero-leaf leaf-m4 dark" style="--sway:172deg; --dur:5.6s"><svg viewBox="0 0 40 90" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-fern"/></svg></span>
+            <span class="hero-leaf leaf-m5 pale" style="--sway:-100deg; --dur:5s"><svg viewBox="0 0 30 70" fill="none" stroke="currentColor" stroke-width="1"><use href="#leaf-sprig"/></svg></span>
+            <span class="hero-leaf leaf-m6 dark" style="--sway:96deg; --dur:5.5s"><svg viewBox="0 0 30 70" fill="none" stroke="currentColor" stroke-width="1"><use href="#leaf-sprig"/></svg></span>
+            <span class="hero-leaf leaf-m7 pale" style="--sway:-52deg; --dur:5.7s"><svg viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-broad"/></svg></span>
+            <span class="hero-leaf leaf-m8 dark" style="--sway:56deg; --dur:5.3s"><svg viewBox="0 0 40 90" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-fern"/></svg></span>
+            <span class="hero-leaf leaf-m9 sage" style="--sway:230deg; --dur:5.9s"><svg viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-broad"/></svg></span>
+            <span class="hero-leaf leaf-m10 dark" style="--sway:-160deg; --dur:5.1s"><svg viewBox="0 0 30 70" fill="none" stroke="currentColor" stroke-width="1"><use href="#leaf-sprig"/></svg></span>
+          </div>
+
+          <div class="hero-photo-frame">
+            <img src="assets/hero-jungla.jpg" alt="Rincón de plantas de Mystic Nails & Beauty" class="hero-photo">
+          </div>
+
+          <!-- Front layer: closest foliage, sharp, bigger sway -->
+          <div class="leaf-layer layer-front">
+            <span class="hero-leaf leaf-f1 dark" style="--sway:-28deg; --dur:4.2s"><svg viewBox="0 0 40 90" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-fern"/></svg></span>
+            <span class="hero-leaf leaf-f2 sage" style="--sway:24deg; --dur:4.6s"><svg viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-broad"/></svg></span>
+            <span class="hero-leaf leaf-f3 dark" style="--sway:206deg; --dur:4.4s"><svg viewBox="0 0 40 90" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-fern"/></svg></span>
+            <span class="hero-leaf leaf-f4 pale" style="--sway:150deg; --dur:4.8s"><svg viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-broad"/></svg></span>
+            <span class="hero-leaf leaf-f5 sage" style="--sway:-102deg; --dur:4s"><svg viewBox="0 0 30 70" fill="none" stroke="currentColor" stroke-width="1"><use href="#leaf-sprig"/></svg></span>
+            <span class="hero-leaf leaf-f6 dark" style="--sway:104deg; --dur:4.5s"><svg viewBox="0 0 30 70" fill="none" stroke="currentColor" stroke-width="1"><use href="#leaf-sprig"/></svg></span>
+            <span class="hero-leaf leaf-f7 sage" style="--sway:-60deg; --dur:4.3s"><svg viewBox="0 0 40 90" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-fern"/></svg></span>
+            <span class="hero-leaf leaf-f8 pale" style="--sway:64deg; --dur:4.7s"><svg viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-broad"/></svg></span>
+            <span class="hero-leaf leaf-f9 dark" style="--sway:222deg; --dur:4.1s"><svg viewBox="0 0 30 70" fill="none" stroke="currentColor" stroke-width="1"><use href="#leaf-sprig"/></svg></span>
+            <span class="hero-leaf leaf-f10 sage" style="--sway:-172deg; --dur:4.9s"><svg viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="1.1"><use href="#leaf-broad"/></svg></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#nosotros" class="scroll-cue" aria-label="Desplázate hacia abajo">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===================== MARQUEE STRIP ===================== -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>Manicura y Pedicura ✦ Uñas Esculpidas ✦ Cejas y Pestañas ✦ Tratamientos Faciales ✦ Tratamientos Corporales ✦ Maderoterapia ✦ Presoterapia ✦ Masajes ✦ Depilación ✦ Maquillaje ✦
+      Manicura y Pedicura ✦ Uñas Esculpidas ✦ Cejas y Pestañas ✦ Tratamientos Faciales ✦ Tratamientos Corporales ✦ Maderoterapia ✦ Presoterapia ✦ Masajes ✦ Depilación ✦ Maquillaje ✦</span>
+    </div>
+  </div>
+
+  <!-- ===================== SOBRE NOSOTROS ===================== -->
+  <section class="about" id="nosotros">
+    <div class="container about-inner">
+      <div class="about-visual" data-reveal>
+        <img src="assets/owner.png" alt="Fundadora de Mystic Nails & Beauty en el estudio" class="about-img">
+      </div>
+
+      <div class="about-content" data-reveal>
+        <span class="overline">Nuestra Esencia</span>
+        <h2>El ritual de la belleza,<br>a tu medida</h2>
+        <p>
+          Mystic Nails &amp; Beauty nació de una idea simple: cada set de uñas debería
+          sentirse tan único como quien lo lleva. Combinamos técnica depurada, materiales
+          de primera calidad y un toque de magia en cada diseño para que salgas de
+          nuestro estudio sintiéndote exactamente como quieres verte.
+        </p>
+        <p>
+          Nuestro espacio es un refugio de calma: luz suave, aromas delicados y manos
+          expertas dedicadas por completo a ti durante toda la cita.
+        </p>
+
+        <ul class="about-list">
+          <li><span>01</span> Materiales premium e higiene certificada</li>
+          <li><span>02</span> Especialistas en nail art personalizado</li>
+          <li><span>03</span> Ambiente relajado, íntimo y elegante</li>
+        </ul>
+
+        <div class="about-stats">
+          <div class="stat">
+            <strong>5+</strong>
+            <span>Años de experiencia</span>
+          </div>
+          <div class="stat">
+            <strong>500+</strong>
+            <span>Clientas satisfechas</span>
+          </div>
+          <div class="stat">
+            <strong>20+</strong>
+            <span>Diseños exclusivos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICIOS ===================== -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="overline">✦ Lo Que Hacemos ✦</span>
+        <h2>Nuestros Servicios</h2>
+        <p class="section-sub">Cada servicio, pensado como una pequeña ceremonia para tus manos y pies.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M14 38c0-9 4-19 10-19s10 10 10 19-5 12-10 12-10-3-10-12Z"/>
+              <path d="M10 38h28"/>
+              <path d="M40 20c-6 6-8 14-8 22a16 16 0 0 0 22 0c0-8-4-16-10-22-1.5 3-2.5 5-4 6-1.5-1-2.5-3-4-6Z"/>
+            </svg>
+          </div>
+          <h3>Manicura y Pedicura</h3>
+          <p>Cuidado completo de manos y pies con esmaltado impecable.</p>
+</article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M32 8v14M32 42v14M8 32h14M42 32h14"/>
+              <circle cx="32" cy="32" r="10"/>
+            </svg>
+          </div>
+          <h3>Uñas Esculpidas</h3>
+          <p>Extensiones en gel o acrílico, moldeadas a tu medida.</p>
+</article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M10 34c8-14 36-14 44 0"/>
+              <path d="M20 22l-2-6M28 18l-1-6M36 18l1-6M44 22l2-6"/>
+              <circle cx="32" cy="40" r="4"/>
+            </svg>
+          </div>
+          <h3>Cejas y Pestañas</h3>
+          <p>Diseño, laminado y tinte para una mirada perfecta.</p>
+</article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M32 10c-11 0-18 9-18 21 0 13 8 21 18 21s18-8 18-21c0-12-7-21-18-21Z"/>
+              <path d="M25 30c1-2 3-2 4 0M35 30c1-2 3-2 4 0"/>
+              <path d="M27 40c2 2 8 2 10 0"/>
+            </svg>
+          </div>
+          <h3>Tratamientos Faciales</h3>
+          <p>Limpieza profunda e hidratación para un rostro renovado.</p>
+</article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.2">
+              <circle cx="32" cy="12" r="5"/>
+              <path d="M32 17v16M20 27h24M32 33l-9 24M32 33l9 24"/>
+            </svg>
+          </div>
+          <h3>Tratamientos Corporales</h3>
+          <p>Rituales corporales para nutrir y revitalizar tu piel.</p>
+</article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="12" y="26" width="40" height="12" rx="6"/>
+              <path d="M22 26v-6M32 26v-6M42 26v-6M22 38v6M32 38v6M42 38v6"/>
+            </svg>
+          </div>
+          <h3>Maderoterapia</h3>
+          <p>Técnica con instrumentos de madera que modela y tonifica.</p>
+</article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M26 8h12l-2 48-4 6-4-6-2-48Z"/>
+              <path d="M23 20h18M22 30h20M23 40h18"/>
+            </svg>
+          </div>
+          <h3>Presoterapia</h3>
+          <p>Drenaje linfático para piernas ligeras y descansadas.</p>
+</article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M14 30c4-6 10-8 14-4 3-6 10-6 12 0 3-4 10-3 12 3-2 8-10 14-19 20-9-6-16-12-19-19Z"/>
+            </svg>
+          </div>
+          <h3>Masajes</h3>
+          <p>Masajes relajantes o descontracturantes a tu medida.</p>
+</article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M18 10c10 6 10 24 4 34-4 6-10 6-12 0-4-10 0-28 8-34Z"/>
+              <path d="M40 16l14 14-8 8-14-14 8-8Z"/>
+            </svg>
+          </div>
+          <h3>Depilación</h3>
+          <p>Depilación con cera para una piel suave y duradera.</p>
+</article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M24 40l18-18 6 6-18 18-8 2 2-8Z"/>
+              <path d="M14 50c2-4 6-4 8 0s6 4 8 0"/>
+            </svg>
+          </div>
+          <h3>Maquillaje</h3>
+          <p>Maquillaje profesional para cada ocasión especial.</p>
+</article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALERÍA ===================== -->
+  <section class="gallery" id="galeria">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="overline">✦ Nuestro Trabajo ✦</span>
+        <h2>Galería</h2>
+        <p class="section-sub">Una muestra de los diseños que damos vida en el estudio.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" data-reveal>
+          <img src="assets/gallery/gallery-u1-nude-dorado.jpg" alt="Manicura nude con detalles de hoja dorada" loading="lazy">
+        </div>
+        <div class="gallery-item" data-reveal>
+          <img src="assets/gallery/gallery-u2-azul-blanco.jpg" alt="Nail art con motivos azules y blancos estilo talavera" loading="lazy">
+        </div>
+        <div class="gallery-item" data-reveal>
+          <img src="assets/gallery/gallery-u3-luna-estrellas.jpg" alt="Manicura plateada con motivos de luna y estrellas doradas" loading="lazy">
+        </div>
+        <div class="gallery-item" data-reveal>
+          <img src="assets/gallery/gallery-u4-gatitos.jpg" alt="Nail art con ilustraciones de gatitos" loading="lazy">
+        </div>
+        <div class="gallery-item" data-reveal>
+          <img src="assets/gallery/gallery-u5-ositos.jpg" alt="Manicura nude con diseño de ositos y corazones" loading="lazy">
+        </div>
+        <div class="gallery-item" data-reveal>
+          <img src="assets/gallery/gallery-u6-dorado-minimal.jpg" alt="Manicura nude minimalista con trazo dorado" loading="lazy">
+        </div>
+      </div>
+      <p class="gallery-note" data-reveal>✦ Síguenos en Instagram para estar al tanto y ver nuestros últimos diseños ✦</p>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIOS ===================== -->
+  <section class="testimonials" id="testimonios">
+    <div class="container">
+      <div class="section-head light" data-reveal>
+        <span class="overline">✦ ¿Qué Opinan Nuestros Clientes? ✦</span>
+        <h2>Testimonios</h2>
+      </div>
+
+      <div class="testi-slider" data-reveal>
+        <div class="testi-track" id="testiTrack">
+          <blockquote class="testi-card active">
+            <div class="testi-stars">★★★★★</div>
+            <p>"Trato inmejorable y un trabajo genial! Claramente mi sitio de confianza para mis mimos, me preguntan mucho donde me hago las uñas asique estoy encantada!"</p>
+            <cite>— Marina</cite>
+          </blockquote>
+          <blockquote class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p>"Es el sitio perfecto para tener tu ratito de autocuidado. Super profesional y delicada. Imposible ser más detallista."</p>
+            <cite>— Eva</cite>
+          </blockquote>
+          <blockquote class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p>"Todo perfecto. Ambiente agradable, limpio y cuidado. Nadia es increíble y muy buena trabajadora, además de simpatiquísima. Me dejó los pies perfectos!! Recomendable 100%."</p>
+            <cite>— Andrea Jimeno</cite>
+          </blockquote>
+          <blockquote class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p>"Nadia es muy agradable, te hace exactamente lo que le pidas. Da gusto ir a su centro."</p>
+            <cite>— Maider</cite>
+          </blockquote>
+          <blockquote class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p>"La mejor manicura de todo Logroño, me salvó las uñas de un desastre que me hicieron y las manicuras posteriores han sido una maravilla, no os lo penséis dos veces."</p>
+            <cite>— Noemí</cite>
+          </blockquote>
+          <blockquote class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p>"Como siempre, genial! Nadia es una crack, super profesional y trato inmejorable. Llevo meses ya yendo con ella y estoy encantada. Recomiendo 100%."</p>
+            <cite>— Amaia</cite>
+          </blockquote>
+        </div>
+
+        <div class="testi-dots" id="testiDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACTO / RESERVAS ===================== -->
+  <section class="contact" id="contacto">
+    <div class="container contact-inner">
+      <div class="contact-info" data-reveal>
+        <span class="overline">✦ Reserva Tu Cita ✦</span>
+        <h2>Hablemos de tus uñas</h2>
+        <p>Usa nuestros datos de contacto de aquí abajo para agendar tu siguiente visita a nuestro centro. ¡Esperamos verte pronto!</p>
+
+        <ul class="contact-list">
+          <li>
+            <strong>Dirección</strong>
+            <span>C. Vitoria, 3, 26005 Logroño, La Rioja</span>
+          </li>
+          <li>
+            <strong>Teléfono</strong>
+            <span>679 60 32 73</span>
+          </li>
+          <li>
+            <strong>Reservas Online</strong>
+            <span><a href="https://mysticnailsandbeauty.booksy.com" target="_blank" rel="noopener">mysticnailsandbeauty.booksy.com</a></span>
+          </li>
+          <li>
+            <strong>Horario</strong>
+            <span>Lun – Sáb: 10:00 – 20:00</span>
+          </li>
+        </ul>
+
+        <div class="social-links">
+          <a href="https://www.instagram.com/mysticbynadia/" target="_blank" rel="noopener" aria-label="Instagram">
+            <img src="assets/instagram-icon.png" alt="" class="social-icon">
+            Instagram
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="Mystic Nails & Beauty" class="footer-logo">
+      <p>Mystic Nails <span class="amp">&amp;</span> Beauty</p>
+      <span>Manos que hechizan, uñas con alma.</span>
+    </div>
+
+    <div class="footer-links">
+      <h4>Navegación</h4>
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+
+    <div class="footer-links">
+      <h4>Síguenos</h4>
+      <a href="https://www.instagram.com/mysticbynadia/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Mystic Nails &amp; Beauty. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<a href="#contacto" class="floating-cta">Reservar</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
